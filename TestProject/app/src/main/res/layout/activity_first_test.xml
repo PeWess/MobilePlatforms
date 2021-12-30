@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/welcometxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome_message"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/welcomebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welocme_button_text" />
+
+    <TextView
+        android:id="@+id/timetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current time"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/timebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press to see current time" />
+</LinearLayout>
